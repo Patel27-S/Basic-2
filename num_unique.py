@@ -23,4 +23,7 @@ def find_uniqueness2(List):
             if List[i] == List[j]:  # Equal value condition while comparing
                 return False
     return True
+<<<<<<< HEAD
 
+=======
+>>>>>>> c0ee4df77b1604862f3924e95adada8115701af6
