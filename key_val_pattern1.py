@@ -1,9 +1,8 @@
 '''
 A Python script to print a dictionary where the keys 
 are numbers between 1 and 'n' (both included) and the values 
-are square of keys
+are square of keys.
 '''
-
 # Here, we have defined a dictionary first.
 d = dict()
 
@@ -21,4 +20,4 @@ n = int(input('Please enter an integral number you want '\
 for i in range(1,n+1):
   d.update({str(i): i*i}) # 'str()' used so that keys and values are identifiable distinctly.
 
-print(d)       
+print(d)
