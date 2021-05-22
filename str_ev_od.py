@@ -11,10 +11,10 @@ def str_ev_od(string):
     '''
     if len(string) %2 != 0:  # If the length of string is Odd.
         x = string[len(string)//2]
-        return (x)           # This returns the middle value of the Odd Lengthed String.
+        return (x)           
     else:                    # If the length of string is Even.
         a = string[(len(string)//2)]
         b = string[((len(string)//2)-1)]
-        return (a, b)        # Returns value of Even Lengthed String.
+        return (a, b)        
 
 print(str_ev_od('MS DHONI'))
