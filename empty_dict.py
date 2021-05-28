@@ -24,6 +24,6 @@ def empty_dict(dictionary):
 
 # Testing of the above function :
 
-di = {}
+di = {1:2}
 
 print(empty_dict(di))
