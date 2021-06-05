@@ -1,2 +1,2 @@
-# Basic-2
-This repository contains basic level practice programs.
+# Python - 2
+This repository containes programs pertinent to different python topics.
