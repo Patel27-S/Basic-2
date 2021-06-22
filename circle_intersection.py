@@ -17,9 +17,4 @@ distance_centres = ((x1-x2)**0.5 + (y1-y2)**0.5)**0.5   # If the distance betwee
 
 if distance_centres <= r1+r2:
   print("Both the circles are intersecting.")
-<<<<<<< HEAD
   
-
-=======
-  
->>>>>>> c0ee4df77b1604862f3924e95adada8115701af6
