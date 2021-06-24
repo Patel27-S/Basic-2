@@ -30,8 +30,10 @@ def tuple_elements_algebra(tuple):
     return (sum, mul, avg)
 
 
+# Testing of the above function :-
+
 B = tuple_elements_algebra((23,34,45))
 print(B)
 
 A = tuple_elements_algebra(('a','b'))
-print(A)
+print(A)    
