@@ -1,5 +1,5 @@
 '''
-In this program, we have concatanated three 
+In this program, we have concatanated three
 dictionaries to form a new dictionary.
 '''
 
@@ -14,12 +14,6 @@ dict_3 = {"Santo":"Haribhakto"}
 # resultant dictionary in.
 
 dict_4 = dict()
-
-# In the below loop, the itertating variable 'd' will iterate
-# through each dictionary in the list, as the elements of the list 
-# are dictionaries. And, in each iteration the 'dict_4' will be 
-# updates/added with the respective value of 'd' which is nothing 
-# but a dictionary element in the list.
 
 for d in [dict_1, dict_2, dict_3]:
     dict_4.update(d)
