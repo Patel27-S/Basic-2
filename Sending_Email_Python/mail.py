@@ -10,7 +10,7 @@ import imghdr                                      # We are importing this modul
 
 
 # Let us access the environment variables (i.e. Email and Password):
-EMAIL_ADDRESS = os.environ.get('Email_Adress')
+EMAIL_ADDRESS = os.environ.get('Email_Address')
 EMAIL_PASSWORD = os.environ.get('Email_Password')
 
 # We have just created an object or EmailMessage() class below:
